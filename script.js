@@ -5,7 +5,7 @@ const msalConfig = {
     auth: {
         clientId: 'cd4dfdd1-d431-46d5-83d3-eed2acb770cc', // Azure App Registration Client ID
         authority: 'https://login.microsoftonline.com/27922de9-3255-410e-a269-895ded3e3d15', // Northpoint Capital Management tenant ID
-        redirectUri: window.location.hostname === 'localhost' ? 'http://localhost:8080' : 'https://lively-island-0775fa403.2.azurestaticapps.net'
+        redirectUri: window.location.hostname === 'localhost' ? 'http://localhost:8080' : 'https://red-dune-0430ceb03.2.azurestaticapps.net'
     },
     cache: {
         cacheLocation: 'localStorage',
